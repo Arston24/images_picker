@@ -2,14 +2,12 @@ package com.chavesgu.images_picker;
 
 import android.content.pm.ActivityInfo;
 
-import com.luck.picture.lib.PictureSelectionModel;
-import com.luck.picture.lib.PictureSelector;
-import com.luck.picture.lib.config.PictureConfig;
-import com.luck.picture.lib.language.LanguageConfig;
 
-import java.lang.reflect.Array;
+import com.android.picture_library.luck.picture.lib.PictureSelectionModel;
+import com.android.picture_library.luck.picture.lib.config.PictureConfig;
+import com.android.picture_library.luck.picture.lib.language.LanguageConfig;
+
 import java.util.HashMap;
-import java.util.List;
 
 public class Utils {
     public static PictureSelectionModel setPhotoSelectOpt(PictureSelectionModel model, int count, double quality) {

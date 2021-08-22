@@ -7,17 +7,16 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.android.picture_library.luck.picture.lib.engine.ImageEngine;
+import com.android.picture_library.luck.picture.lib.listener.OnImageCompleteCallback;
+import com.android.picture_library.luck.picture.lib.tools.MediaUtils;
+import com.android.picture_library.luck.picture.lib.widget.longimage.ImageSource;
+import com.android.picture_library.luck.picture.lib.widget.longimage.ImageViewState;
+import com.android.picture_library.luck.picture.lib.widget.longimage.SubsamplingScaleImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.bumptech.glide.request.target.ImageViewTarget;
-import com.luck.picture.lib.engine.ImageEngine;
-import com.luck.picture.lib.listener.OnImageCompleteCallback;
-import com.luck.picture.lib.tools.MediaUtils;
-import com.luck.picture.lib.widget.longimage.ImageSource;
-import com.luck.picture.lib.widget.longimage.ImageViewState;
-import com.luck.picture.lib.widget.longimage.SubsamplingScaleImageView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawable;
