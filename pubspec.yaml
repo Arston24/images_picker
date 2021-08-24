@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.chavesgu.images_picker
+        package: com.picker
         pluginClass: ImagesPickerPlugin
       ios:
         pluginClass: ImagesPickerPlugin
