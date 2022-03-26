@@ -2,7 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.luck.picture.lib">
 
-
+  <queries>
+    <package android:name="${applicationId}"/>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE"/>
+    </intent>
+    <intent>
+      <action android:name="android.media.action.ACTION_VIDEO_CAPTURE"/>
+    </intent>
+  </queries>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />

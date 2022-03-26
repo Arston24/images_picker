@@ -1,3 +1,20 @@
+## 1.2.11
+update ios package
+## 1.2.10
+fix android 12 can not open camera
+
+update PictureSelector
+
+## 1.2.9
+add maxTime for pick video
+## 1.2.8
+fix android filename error
+## 1.2.7
+fix android filename error
+## 1.2.6
+fix ios openCamera no cancel callback
+## 1.2.5
+update ZLPhotoBrowser and PictureSelector
 ## 1.2.4
 fix
 ## 1.2.3

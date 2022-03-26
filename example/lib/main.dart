@@ -39,11 +39,14 @@ class _MyAppState extends State<MyApp> {
                   count: 3,
                   pickType: PickType.all,
                   language: Language.System,
+                  maxTime: 30,
                   // maxSize: 500,
                   cropOpt: CropOption(
-                    aspectRatio: CropAspectRatio.wh16x9,
+                    // aspectRatio: CropAspectRatio.wh16x9,
+                    cropType: CropType.circle,
                   ),
                 );
+                print(res);
                 if (res != null) {
                   print(res.map((e) => e.path).toList());
                   setState(() {
@@ -58,13 +61,16 @@ class _MyAppState extends State<MyApp> {
               child: Text('openCamera'),
               onPressed: () async {
                 List<Media>? res = await ImagesPicker.openCamera(
+                  // pickType: PickType.video,
                   pickType: PickType.image,
-                  quality: 0.5,
+                  quality: 0.8,
+                  maxSize: 800,
                   // cropOpt: CropOption(
                   //   aspectRatio: CropAspectRatio.wh16x9,
                   // ),
-                  // maxTime: 60,
+                  maxTime: 15,
                 );
+                print(res);
                 if (res != null) {
                   print(res[0].path);
                   setState(() {
