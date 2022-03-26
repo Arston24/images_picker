@@ -2,9 +2,9 @@ PODS:
   - Flutter (1.0.0)
   - images_picker (0.0.1):
     - Flutter
-    - ZLPhotoBrowser (= 4.2.5)
+    - ZLPhotoBrowser (= 4.1.5)
   - ZLPhotoBrowser (4.2.5):
-    - ZLPhotoBrowser/Core (= 4.2.5)
+    - ZLPhotoBrowser/Core (= 4.1.5)
   - ZLPhotoBrowser/Core (4.2.5)
 
 DEPENDENCIES:
